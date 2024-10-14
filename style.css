@@ -1,0 +1,71 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: monospace;
+}
+
+body {
+    background-color: antiquewhite;
+    height: 100dvh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+form {
+    background-color: white;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    max-width: 412px;
+    margin: auto;
+    gap: 2rem;
+    justify-content: center;
+    padding: 8rem 3rem;
+    border-radius: 10px;
+
+    div {
+        display: flex;
+        flex-flow: column nowrap;
+        width: 100%;
+    }
+
+    #sing {
+        padding: 0.5rem 2rem;
+        background-color: rgb(112, 156, 194);
+        border-radius: 5px;
+        border: none;
+        transition: 200ms;
+    }
+
+    label{
+        font-size: large;
+        font-weight: 600;
+    }
+
+    input{
+        margin-bottom: 20px;
+        transition: 200ms;
+    }
+    
+    input:hover {
+        scale: 1.08;
+    }
+
+    #sing:hover{
+        scale: 1.2;
+    }
+
+    a {
+        color:black;
+        text-decoration: none;
+    }
+
+    a:hover{
+        text-decoration: underline;
+
+    }
+}
